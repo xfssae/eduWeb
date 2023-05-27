@@ -214,11 +214,15 @@
             </figure>
 
             <!--Login form-->
-            <div class="loginForm hidden">
+
+            <form action="login.php" method="POST" class="loginForm hidden">
               <h2>Login Here</h2>
               <input type="email" name="email" placeholder="Email" />
-              <input type="password" name="" placeholder="Password" />
-              <button class="loginBtn" id="loginBtn"><a href="#">Login</a></button>
+              <input type="password" name="password" placeholder="Password" />
+              <button class="loginBtn" id="loginBtn">
+                <!-- <a href="#">Login</a> -->Login
+              </button>
+              <!-- <button class="loginBtn">Login</button> -->
               <p class="link">
                 Don't have an account<br />
                 <a href="#">Sign Up</a>
@@ -232,20 +236,20 @@
                 <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
                 <a href="#"><ion-icon name="logo-Skype"></ion-icon></a>
               </div>
-            </div>
+            </form>
 
             <!-- SignUp form -->
-            <div class="signUpForm hidden">
+            <form action="signup.php" method="post" class="signUpForm hidden">
               <h2>SignUp Here</h2>
-              <input type="text" name="" placeholder="Name" />
+              <input type="text" name="name" placeholder="Name" />
               <input type="email" name="email" placeholder="Email" />
-              <input type="password" name="" placeholder="Password" />
-              <input type="password" name="" placeholder="Repeat Password" />
-              <button class="btnn"><a href="#">SignUp</a></button><br />
+              <input type="password" name="password" placeholder="Password" />
+              <input type="password" name="repeat_password" placeholder="Repeat Password" />
+              <button class="btnn">SignUp</a></button><br />
               <p class="link">
-              Already have an account?<button class="anchorTag">Login</button>
+                Already have an account?<button class="anchorTag">Login</button>
               </p>
-            </div>
+            </form>
             <div class="Overlay hidden"></div>
           </div>
         </section>
