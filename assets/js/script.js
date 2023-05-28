@@ -91,6 +91,7 @@ const openSignup = function () {
   document.querySelector(".signUpForm").style.display = "block";
   document.querySelector(".Overlay").style.display = "block";
   alert("Sign Up link clicked!");
+  
 };
 signupLink.addEventListener("click", openSignup);
 

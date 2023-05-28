@@ -127,13 +127,6 @@
 
             <!-- <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>  -->
           </button>
-          <!-- Profile button (initially hidden) -->
-          <!-- <div class="profileSection hidden">
-          <img src="assets/images/category-1.svg" alt="Profile Picture" class="profilePicture">
-          <p class="username">Username</p>
-          <a href="#" class="logoutLink">Logout</a>
-          </div>
-          <button class="profileBtn hidden">Profile</button> -->
 
           <button
             class="header-action-btn"
@@ -220,13 +213,11 @@
             </figure>
 
             <!--Login form-->
-            <div class="loginForm hidden">
+            <form action="login.php" method="POST" class="loginForm hidden">
               <h2>Login Here</h2>
               <input type="email" name="email" placeholder="Email" />
               <input type="password" name="" placeholder="Password" />
-              <button class="loginBtn" id="loginBtn">
-                <a href="#">Login</a>
-              </button>
+              <button class="loginBtn" id="loginBtn">Login</button>
               <p class="link">
                 Don't have an account<br />
                 <a href="#" class="signupLink">Sign Up</a>
@@ -240,21 +231,20 @@
                 <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
                 <a href="#"><ion-icon name="logo-Skype"></ion-icon></a>
               </div>
-            </div>
+            </form>
 
             <!-- SignUp form -->
-            <div class="signUpForm hidden">
+            <form action="signup.php" method="POST" class="signUpForm hidden">
               <h2>SignUp Here</h2>
-              <input type="text" name="" placeholder="Name" />
+              <input type="text" name="name" placeholder="Name" />
               <input type="email" name="email" placeholder="Email" />
-              <input type="password" name="" placeholder="Password" />
-              <input type="password" name="" placeholder="Repeat Password" />
-              <button class="btnn"><a href="#">SignUp</a></button><br />
+              <input type="password" name="password" placeholder="Password" />
+              <input type="password" name="repeat_password" placeholder="Repeat Password" />
+              <button class="btnn">SignUp</button><br />
               <p class="link">
-                Already have an account? <a href="#" class="loginLink">Login</a>
-                 <!-- <button class="anchorTag">Login</button> -->
+                Already have an account?<a href="#" class="loginLink">Login</a>
               </p>
-            </div>
+            </form>
             <div class="Overlay hidden"></div>
           </div>
         </section>
@@ -1197,7 +1187,7 @@
         <div class="container">
           <p class="copyright">
             Copyright 2023 All Rights Reserved by
-            <a href="#" class="copyright-link">eduweb 2023</a>
+            <a href="#" class="copyright-link">eduweb</a>
           </p>
         </div>
       </div>
