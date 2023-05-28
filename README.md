@@ -1,10 +1,10 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/eduweb)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/eduweb?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/eduweb?style=social)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/x26bQPxcFX4?style=social)](https://youtu.be/x26bQPxcFX4)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/ayan878/eduweb)
+  ![GitHub stars](https://img.shields.io/github/stars/ayan878/eduweb?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/ayan/eduweb?style=social)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/ayan878_ayan?style=social)](https://twitter.com/intent/follow?screen_name=ayan878)
+<!--   [![YouTube Video Views](https://img.shields.io/youtube/views/x26bQPxcFX4?style=social)](https://youtu.be/x26bQPxcFX4) -->
 
   <br />
   <br />
@@ -13,7 +13,7 @@
 
   EduWeb is a fully responsive education website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/eduweb/"><strong>➥ Live Demo</strong></a>
+  <a href="https://ayan878.github.io/eduweb/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -42,12 +42,12 @@ sudo git clone https://github.com/codewithsadee/eduweb.git
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/eduweb.git
+git clone https://github.com/ayan878/eduweb.git
 ```
 
 ### Contact
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/ayan878_ayan).
 
 ### License
 
