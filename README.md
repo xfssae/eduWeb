@@ -36,7 +36,7 @@ To run **EduWeb** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/eduweb.git
+sudo git clone https://github.com/ayan878/eduweb.git
 ```
 
 Windows:
