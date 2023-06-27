@@ -63,6 +63,7 @@ const Overlay = document.querySelector(".Overlay");
 const btnLogin = document.querySelector(".btnlogin");
 const btnSignUp = document.querySelector(".btnsignup");
 const btnAnchor = document.querySelector(".signupAnchor");
+const BtnForgot = document.querySelector('.ForgotPassword');
 
 const SignUp = function () {
   document.querySelector(".signUpForm").style.display = "block";
@@ -73,6 +74,7 @@ btnSignUp.addEventListener("click", SignUp);
 const Login = function () {
   document.querySelector(".loginForm").style.display = "block";
   document.querySelector(".Overlay").style.display = "block";
+  // document.querySelector(".header.btn").style.display = "none";
 };
 btnLogin.addEventListener("click", Login);
 
@@ -89,9 +91,9 @@ const signupLink = document.querySelector(".signupLink");
 
 const openSignup = function () {
   document.querySelector(".signUpForm").style.display = "block";
+  document.querySelector(".loginForm").style.display = "none";
   document.querySelector(".Overlay").style.display = "block";
-  alert("Sign Up link clicked!");
-  
+  // alert("Sign Up link clicked!");
 };
 signupLink.addEventListener("click", openSignup);
 
@@ -105,3 +107,18 @@ const openLogin = function () {
   alert("login link clicked!");
 };
 loginLink.addEventListener("click", openLogin);
+
+// open forgot Form 
+const ForgotPasswordLink = document.querySelector(".ForgotPasswordLink");
+
+const openForgotPassword = function () {
+  document.querySelector(".loginForm").style.display = "none";
+  document.querySelector(".Overlay").style.display = "block";
+  document.querySelector(".ForgotPasswordForm").style.display = "block";
+  alert("Forgot Password link clicked!");
+};
+ForgotPasswordLink.addEventListener("click", openForgotPassword);
+
+
+
+

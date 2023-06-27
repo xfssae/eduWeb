@@ -30,7 +30,6 @@ if ($result->num_rows > 0) {
         alert('Login successfully');
         window.location.href='index.html';
         </script>
-
     ";
     }
 } else {
