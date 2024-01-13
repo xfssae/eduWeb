@@ -13,7 +13,7 @@
 
   EduWeb is a fully responsive education website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a [href="https://65a23f3b7f41e797402d3359--glistening-florentine-296718.netlify.app/"]><strong>➥ Live Demo</strong></a>
+  <a href="https://65a23f3b7f41e797402d3359--glistening-florentine-296718.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
