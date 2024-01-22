@@ -454,7 +454,7 @@ body {
 \*-----------------------------------*/
 
 .profile-section {
-  position: absolute;
+  /* position: absolute; */
   right: 8%;
   /* display: none; */
   /* align-items: center; */
