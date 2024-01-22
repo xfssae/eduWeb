@@ -104,7 +104,7 @@ const openLogin = function () {
   document.querySelector(".signUpForm").style.display = "none";
   document.querySelector(".Overlay").style.display = "block";
   document.querySelector(".loginForm").style.display = "block";
-  alert("login link clicked!");
+  // alert("login link clicked!");
 };
 loginLink.addEventListener("click", openLogin);
 
