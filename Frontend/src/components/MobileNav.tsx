@@ -21,7 +21,7 @@ export default function MobileNav() {
           <span>Welcome to EduWeb.com!</span>
         </SheetTitle>
         <Separator />
-        <SheetDescription className="flex flex-col">
+        <SheetDescription className="flex flex-col py-4   ">
           <div className="container flex flex-col gap-4 ">
             <Link
               to="/"
@@ -59,7 +59,7 @@ export default function MobileNav() {
               Contact
             </Link>
           </div>
-          <Button className="flex flex-1 font-bold text-green-700 ">
+          <Button className="flex flex-1 font-bold bg-green-700 mt-4">
             Login
           </Button>
         </SheetDescription>
