@@ -51,6 +51,9 @@
             Configure the import alias for utils: › @/lib/utils
             Are you using React Server Components? › no 
 
+    # Created AppRoute(react-router-dom)
+    # Create Layout & Header
+
 
 
 
