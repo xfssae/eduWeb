@@ -18,42 +18,42 @@ export default function MobileNav() {
       </SheetTrigger>
       <SheetContent>
         <SheetTitle>
-          <span>Welcome to EduWeb.com!</span>
+          <span className="text-green-700">Welcome to EduWeb.com!</span>
         </SheetTitle>
         <Separator />
         <SheetDescription className="flex flex-col py-4   ">
           <div className="container flex flex-col gap-4 ">
             <Link
               to="/"
-              className="text-base flex gap-2 items-center  font-bold tracking-tight text-black"
+              className="text-base flex gap-2 items-center  font-bold tracking-tight text-black hover:text-green-700"
             >
               <HomeIcon />
               Home
             </Link>
             <Link
               to="/"
-              className="text-base flex gap-2 items-center font-bold tracking-tight text-black"
+              className="text-base flex gap-2 items-center font-bold tracking-tight text-black hover:text-green-700"
             >
               <InfoIcon />
               About
             </Link>
             <Link
               to="/"
-              className="text-base flex gap-2 items-center font-bold tracking-tight text-black"
+              className="text-base flex gap-2 items-center font-bold tracking-tight text-black hover:text-green-700"
             >
               <Book />
               Course
             </Link>
             <Link
               to="/"
-              className="text-base flex gap-2 items-center font-bold tracking-tight text-black"
+              className="text-base flex gap-2 items-center font-bold tracking-tight text-black hover:text-green-700"
             >
               <RssIcon />
               Blog
             </Link>
             <Link
               to="/"
-              className="text-base flex gap-2 items-center font-bold tracking-tight text-black"
+              className="text-base flex gap-2 items-center font-bold tracking-tight text-black hover:text-green-700"
             >
               <Contact />
               Contact
