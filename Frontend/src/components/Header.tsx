@@ -3,6 +3,7 @@ import logo from "../assets/logo.svg";
 import MobileNav from "./MobileNav";
 import MainNav from "./MainNav";
 
+
 export default function Header() {
   return (
     <div className="border-b-2 shadow-sm py-6 ">
