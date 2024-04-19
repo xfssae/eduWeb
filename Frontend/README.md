@@ -55,6 +55,12 @@
     # Create Layout & Header
     # Create MobileNav For Resposiveness(using Shadcn Sheet)
       - npx shadcn-ui@latest add sheet
+    # Pages
+      - Home
+      - About 
+      - Course
+      - Blog
+      - Contact 
 
 
 
