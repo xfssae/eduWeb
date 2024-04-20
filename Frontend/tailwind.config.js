@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+     backgroundImage: {
+        'heroBg': "url('./src/assets/hero-bg.svg')",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
