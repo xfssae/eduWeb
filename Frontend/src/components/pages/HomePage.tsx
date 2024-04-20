@@ -1,8 +1,9 @@
-import React from 'react'
+
+import Hero from '../Hero'
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div><Hero/></div>
   )
 }
 
