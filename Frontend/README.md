@@ -61,6 +61,8 @@
       - Course
       - Blog
       - Contact 
+    # Auth0
+      - npm install @auth0/auth0-react
 
 
 
