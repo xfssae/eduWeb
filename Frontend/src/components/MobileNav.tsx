@@ -9,8 +9,13 @@ import {
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
+import UsernameMenu from "./Username";
+
+
 
 export default function MobileNav() {
+  const {user,logout,loginWithRedirect}=useAuth0()
   return (
     <Sheet>
       <SheetTrigger>
@@ -18,7 +23,11 @@ export default function MobileNav() {
       </SheetTrigger>
       <SheetContent>
         <SheetTitle>
-          <span className="text-green-700">Welcome to EduWeb.com!</span>
+          {user ? (
+            <UsernameMenu />
+          ) : (
+            <span className="text-green-700">Welcome to EduWeb.com!</span>
+          )}
         </SheetTitle>
         <Separator />
         <SheetDescription className="flex flex-col py-4   ">
@@ -59,9 +68,15 @@ export default function MobileNav() {
               Contact
             </Link>
           </div>
-          <Button className="flex flex-1 font-bold bg-green-700 mt-4">
-            Login
-          </Button>
+          {user ? (
+            <Button className="flex flex-1 font-bold bg-green-700 mt-4" onClick={logout}>
+              Log out
+            </Button>
+          ) : (
+            <Button className="flex flex-1 font-bold bg-green-700 mt-4"  onClick={async () => await loginWithRedirect()}>
+              Login
+            </Button>
+          )}
         </SheetDescription>
       </SheetContent>
     </Sheet>
