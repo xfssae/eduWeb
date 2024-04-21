@@ -67,7 +67,9 @@
       - AuthProviderNavigate.tsx
     # DropDown Menu(Shadcn) 
       - npx shadcn-ui@latest add dropdown-menu
-
+  # Backend
+      - init npm "npm init -y"
+      - intall express command "npm i express cors dotenv mongodb mongoose"
 
 
 
