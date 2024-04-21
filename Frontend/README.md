@@ -63,6 +63,11 @@
       - Contact 
     # Auth0
       - npm install @auth0/auth0-react
+    # Created AuthProvider
+      - AuthProviderNavigate.tsx
+    # DropDown Menu(Shadcn) 
+      - npx shadcn-ui@latest add dropdown-menu
+
 
 
 
