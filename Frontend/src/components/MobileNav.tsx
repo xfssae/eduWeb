@@ -69,7 +69,7 @@ export default function MobileNav() {
             </Link>
           </div>
           {user ? (
-            <Button className="flex flex-1 font-bold bg-green-700 mt-4" onClick={logout}>
+            <Button className="flex flex-1 font-bold bg-green-700 mt-4 hover:bg-green-800" onClick={logout}>
               Log out
             </Button>
           ) : (
