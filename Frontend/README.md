@@ -78,6 +78,8 @@
       - npx tsc --init
         - it create tsconfig.json
       - mongodb password "PbelluvHBt13eqD7"
+      # Created Model folder
+        - Created user.ts (schema)
 
 
 
