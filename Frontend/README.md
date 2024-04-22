@@ -82,6 +82,9 @@
         - Created user.ts (schema)
       # Created Routes folder
         - Created myUserRoutes.ts
+      # Created Controllers Folder
+        - Created MyUserController.ts
+        
 
 
 
