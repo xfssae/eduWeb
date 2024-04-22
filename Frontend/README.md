@@ -75,6 +75,9 @@
       - npm i ts-node typescript nodemon @types/express @types/cors @types/node --save-dev
       # Created src folder
         - Created index.ts
+      - npx tsc --init
+        - it create tsconfig.json
+      - mongodb password "PbelluvHBt13eqD7"
 
 
 
