@@ -5,16 +5,16 @@ import { Button } from "./ui/button";
 
 export default function Hero() {
   return (
-    <div className="bg-heroBg bg-cover min-h-screen w-screen overflow-hidden flex flex-col flex-1 p-8 md:p-24 md:flex-row gap-8">
+    <div className="bg-heroBg bg-cover min-h-screen w-screen overflow-hidden flex flex-col flex-1 p-6 md:p-24 md:flex-row gap-8">
       <div className=" md:w-2/3 flex flex-col text-center  ">
-        <h2 className=" md:text-left mb-8 text-2xl md:text-6xl tracking-tight leading-tight font-bold md:mt-6">
+        <h2 className=" md:text-left mb-8 text-2xl md:text-6xl tracking-tight leading-tight font-bold mt-4 md:mt-2">
           The Best Program to <span className="text-red-500">Enroll</span> For
           Exchange
         </h2>
-        <p className="text-xl md:text-left mb-8 md:w-[400px]">
+        <p className="text-xl md:text-left mb-6 md:mb-4 md:w-[400px]">
           India's largest learning platfom for Computer Science Student
         </p>
-        <Button className="bg-green-700 w-28 p-8 mx-auto md:mx-0 ">
+        <Button className="bg-green-700 w-28 p-8 md:p-6 mx-auto md:mx-0 ">
           Join Us
         </Button>
       </div>
