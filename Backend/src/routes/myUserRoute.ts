@@ -3,7 +3,7 @@ import MyUserController from "../controllers/MyUserController";
 
 const router = express.Router();
 
-// /api/my/user
+// Define the route for creating a new user
 router.post("/", MyUserController.createCurrentUser);
 
 export default router;
