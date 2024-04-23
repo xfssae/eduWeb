@@ -15,7 +15,8 @@ app.get("/test", async (req: Request, res: Response) => {
   res.json({ message: "Hello!" });
 });
 
-app.use("api/my/user",myUserRoute)
+// request from frontend(client) "api/my/user" it call myUserRoute -> myUserController and it will get pass to createCurrentUser
+app.use("/api/my/user",myUserRoute)
 app.listen(7000, () => {
   console.log("server started on localhost:7000");
 });
