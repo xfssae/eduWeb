@@ -13,7 +13,7 @@ import logoLight from "../assets/logo-light.svg";
 function Footer() {
   return (
     <footer className="bg-footerBg bg-black py-8">
-      <div className="container grid grid-cols-1 md:grid-cols-4 gap-4 px-4">
+      <div className="container grid grid-cols-1 md:grid-cols-4 gap-4 px-8 leading-7">
         {/* Column 1 */}
         <div className=" p-4 tracking-wider">
           <Link to="/">
