@@ -12,12 +12,16 @@ import { Button } from "./ui/button";
 
 const UsernameMenu = () => {
   const { user, logout } = useAuth0();
-
+  console.log(user?.picture);
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className="flex items-center px-3 font-bold hover:text-green-500 gap-2">
         {user ? (
-      <img src={user?.picture} alt="profile photo" className="w-6 h-6 rounded-full"/>
+          <img
+            src={user?.picture}
+            alt="profile photo"
+            className="w-6 h-6 rounded-full"
+          />
         ) : (
           <CircleUserRound className="text-green-500" />
         )}
