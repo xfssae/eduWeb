@@ -67,6 +67,7 @@
       - AuthProviderNavigate.tsx
     # DropDown Menu(Shadcn) 
       - npx shadcn-ui@latest add dropdown-menu
+    # ReactQuery installed
 
       
   # Backend
@@ -84,7 +85,7 @@
         - Created myUserRoutes.ts
       # Created Controllers Folder
         - Created MyUserController.ts
-        
+        - Created User Request
 
 
 
