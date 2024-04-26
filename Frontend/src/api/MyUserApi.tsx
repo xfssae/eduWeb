@@ -1,4 +1,3 @@
-import { Import } from "lucide-react";
 import { useMutation } from "react-query";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
@@ -9,7 +8,7 @@ type createUserRequest = {
 };
 
 export const useCreateMyUser = () => {
-  const createMyUserRequeste = async (user: createUserRequest) => {
+  const createMyUserRequest = async (user: createUserRequest) => {
     const response = await fetch(`${API_BASE_URL}/api/my/user`, {
       method: "POST",
       headers: {
@@ -21,6 +20,11 @@ export const useCreateMyUser = () => {
       throw new Error("Failed to create user");
     }
   };
-  const{mutateAsync:createUS}=useMutation(createMyUserRequeste);
+  const {
+    mutateAsync: createUser,
+    isLoading,
+    isError,
+    isSuccess,
+  } = useMutation(createMyUserRequest);
+  return { createUser, isError, isLoading, isSuccess };
 };
-
