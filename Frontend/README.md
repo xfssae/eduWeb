@@ -89,6 +89,12 @@
       # Created Controllers Folder
         - Created MyUserController.ts
         - Created User Request
+      # Autherization (bearer)
+      # Created Middleware Folder(handle Authentication or bussiness logic)
+        - Created auth.ts
+          - install jwt
+            - npm i express-oauth2-jwt-bearer
+
 
 
 
