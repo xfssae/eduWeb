@@ -68,6 +68,9 @@
     # DropDown Menu(Shadcn) 
       - npx shadcn-ui@latest add dropdown-menu
     # ReactQuery installed
+      - npm install react-query
+    # Crated pages
+      - AuthCallbackPage.tsx
 
       
   # Backend
