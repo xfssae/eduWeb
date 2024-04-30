@@ -41,6 +41,7 @@ const updateCurrentUser = async (req: Request, res: Response) => {
     await user.save;
     res.send(user);
 
+  
   } catch (error) {
     console.error(error);
     res.status(500).json({ message: "Error updating user" });
