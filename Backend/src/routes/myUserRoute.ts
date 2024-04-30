@@ -6,6 +6,7 @@ import MyUserController from "../controllers/MyUserController";
 
 // Import middleware functions for authentication
 import { jwtCheck, jwtParse } from "../middleware/auth";
+import { validateMyUserRequest } from "../middleware/validation";
 
 // Create a new router instance
 const router = express.Router();
@@ -20,7 +21,13 @@ router.post("/", jwtCheck, MyUserController.createCurrentUser);
 // Use jwtCheck and jwtParse middleware to ensure authentication and parse JWT token
 // The jwtParse middleware extracts user information from the JWT token
 // The MyUserController.updateCurrentUser method handles the update of the user
-router.put("/", jwtCheck, jwtParse, MyUserController.updateCurrentUser);
+router.put(
+  "/",
+  jwtCheck,
+  jwtParse,
+  validateMyUserRequest,
+  MyUserController.updateCurrentUser
+);
 
 // Export the router for use in other modules
 export default router;

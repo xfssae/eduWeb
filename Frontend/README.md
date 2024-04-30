@@ -125,6 +125,9 @@
         - decode the token
           - npmi jsonwebtoken
           - for type npm i @types/jsonwebtoken --save-dev
+      # Created Validation.ts
+        - installed express validator
+          - nmp i express validator
 
 # React + TypeScript + Vite
 
