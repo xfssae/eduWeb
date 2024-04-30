@@ -35,7 +35,7 @@ const UsernameMenu = () => {
         </DropdownMenuItem>
         <Separator />
         <DropdownMenuItem>
-          <Button
+          <Button 
             className="flex flex-1 font-bold bg-green-500"
             onClick={logout}
           >
